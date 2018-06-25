@@ -8,4 +8,5 @@ Author: アルム＝バンド
 add_action('init', 'studies_init');
 function studies_init() {
 	add_post_type_support('studies', 'wpcom-markdown');
+	add_post_type_support('studynotes', 'wpcom-markdown');
 }
